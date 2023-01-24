@@ -1,0 +1,138 @@
+
+
+/* Hero Section: */
+.hero-section{
+  background-image: url(PICS/banner-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.left-div{
+margin: auto;
+padding-top: 25px;
+}
+
+.left-div h1 , h3{
+background-color: black;
+color: white;
+padding: 0px 30px;
+width: fit-content;
+}
+
+/* Form: */
+
+.form-div{
+  width: 290px;
+  background-color: white;
+  padding: 40px 35px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.form-div input{
+  border: 1.5px solid black;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.form-btn{
+  background-color: forestgreen;
+  color: white;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 2;
+}
+
+/* Learn about these - first banner Desktop: */
+
+.first-banner-row img{
+width: 170px;
+height: 170px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px){
+  .first-banner{
+    display: none;
+  }
+}
+
+/* Learn about these - first banner mobile: */
+.first-banner-mobile img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.first-banner-row{
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 600px){
+  .first-banner-mobile{
+    display: none;
+  }
+}
+
+
+/* About the Eco Company - second banner: */
+
+.second-banner{
+  background-color: #F0E8E5;
+  padding: 0px 100px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .second-banner{
+    padding: 0px 10px;
+    padding-bottom: 10px;
+  }
+
+  .second-banner .full-text{
+    display: none;
+  }
+} 
+
+@media screen and (min-width: 600px) {
+  .second-banner .short-text{
+    display: none ;
+  }
+}
+
+
+/* CEO - third Banner: */
+
+.third-banner img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.a-col{
+width: 400px;
+
+}
+
+@media screen and (max-width: 600px){
+  .third-banner{
+    display: none;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .third-banner-mobile{
+    display: none;
+  }
+  
+}
+
+.img-col-third-banner img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
